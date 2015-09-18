@@ -1,0 +1,23 @@
+@mixin icomoon($icon, $color: $body-font-color, $background-color: transparent, $position: "before", $replace: false) {
+  // If we're replacing the text, set font-size to 0
+  @if $replace {
+    font-size: 0;
+  }
+  // Pseudo-element properties
+  &:#{$position} {
+    @extend .icon-#{$icon};
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    background-color: $background-color;
+    color: $color;
+    @if $replace {
+      font-size: 1rem;
+    }
+    @content;
+  }
+}

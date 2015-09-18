@@ -1,0 +1,50 @@
+section.home {
+  height: rem-calc(700);
+  background-image: linear-gradient(to bottom, rgba(255, 102, 102, 0.4), rgba(255, 102, 102, 0.4)), url(../assets/img/background.jpg);
+  background-size: cover;
+  @media #{$large-up}{
+    height: rem-calc(900);
+  }
+  .titles {
+    padding-top: 20%;
+  }
+  ul {
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    li {
+      display: inline-block;
+      a {
+        display: block;
+        padding-top: rem-calc(10);
+        padding-bottom: rem-calc(8);
+        border: 1px solid $white;
+        &:before {
+          padding: rem-calc(10);
+          font-size: rem-calc(35);
+          color: $white;
+        }
+        &.facebook {
+          &:hover {
+            background: $facebook;
+          }
+        }
+        &.twitter {
+          &:hover {
+            background: $twitter;
+          }
+        }
+        &.linkedin {
+          &:hover {
+            background: $linkedIn;
+          }
+        }
+        &.instagram {
+          &:hover {
+            background: $instagram;
+          }
+        }
+      }
+    }
+  }
+}

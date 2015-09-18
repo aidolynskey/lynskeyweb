@@ -1,0 +1,24 @@
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 1px 0px 30px rgba(0, 0, 0, 1);
+  text-align: center;
+  color: $white;
+}
+
+.facebook {
+  @include icomoon ('facebook');
+}
+.twitter {
+  @include icomoon ('twitter');
+}
+.linkedin {
+  @include icomoon ('linkedin');
+}
+.youtube {
+  @include icomoon ('youtube');
+}
+.instagram {
+  @include icomoon ('instagram');
+}
+.snapchat {
+  @include icomoon ('snapchat');
+}
