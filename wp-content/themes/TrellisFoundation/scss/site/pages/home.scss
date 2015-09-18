@@ -16,34 +16,18 @@ section.home {
       display: inline-block;
       a {
         display: block;
-        padding-top: rem-calc(10);
-        padding-bottom: rem-calc(8);
-        border: 1px solid $white;
-        &:before {
-          padding: rem-calc(10);
-          font-size: rem-calc(35);
-          color: $white;
-        }
-        &.facebook {
-          &:hover {
-            background: $facebook;
+        i {
+          &:before {
+            padding: rem-calc(10);
+            font-size: rem-calc(65);
+            color: $white;
           }
         }
-        &.twitter {
-          &:hover {
-            background: $twitter;
-          }
-        }
-        &.linkedin {
-          &:hover {
-            background: $linkedIn;
-          }
-        }
-        &.instagram {
-          &:hover {
-            background: $instagram;
-          }
-        }
+      }
+    }
+    i {
+      &:before {
+        font-size: rem-calc(50);
       }
     }
   }

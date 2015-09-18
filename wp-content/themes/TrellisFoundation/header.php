@@ -29,7 +29,7 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/apple-touch-icon-72x72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/apple-touch-icon-precomposed.png">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reject.css" />
-
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>

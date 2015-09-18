@@ -9,12 +9,12 @@ Template Name: Home
         <h1>Aidan Lynskey</h1>
         <h2>Web Developer</h2>
         <ul>
-            <li><a href="#" class="facebook"><span>&nbsp;</span></a></li>
-            <li><a href="#" class="twitter"><span>&nbsp;</span></a></li>
-            <li><a href="#" class="linkedin"><span>&nbsp;</span></a></li>
-            <li><a href="#" class="instagram"><span>&nbsp;</span></a></li>
-            <li><a href="#" class="vine"><span>&nbsp;</span></a></li>
-            <li><a href="#" class="snapchat"><span>&nbsp;</span></a></li>
+            <li><a href="#"><i class="fi-social-facebook"></i></a></li>
+            <li><a href="#"><i class="fi-social-twitter"></i></a></li>
+            <li><a href="#"><i class="fi-social-instagram"></i></a></li>
+            <li><a href="#"><i class="fi-social-linkedin"></i></a></li>
+            <li><a href="#"><i class="fi-social-youtube"></i></a></li>
+            <li><a href="#"><i class="fi-social-snapchat"></i></a></li>
         </ul>
     </div>
 </section>
