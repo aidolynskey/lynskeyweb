@@ -5,6 +5,10 @@ section.home {
   @media #{$large-up}{
     height: rem-calc(900);
   }
+  h1, h2, h3, h4, h5, h6 {
+    text-shadow: 1px 0px 30px rgba(0, 0, 0, 1);
+    color: $white;
+  }
   .titles {
     padding-top: 20%;
   }

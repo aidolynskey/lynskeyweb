@@ -1,0 +1,18 @@
+.snapchat {
+  .featured-image {
+    img {
+      @media #{$medium-up} {
+        width: 50%;
+        margin: 0 auto;
+      }
+    }
+  }
+  .featured-video {
+    iframe {
+      @media #{$medium-up} {
+        width: 50%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
